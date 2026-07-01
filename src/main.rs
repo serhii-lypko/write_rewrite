@@ -79,8 +79,6 @@ mod playground;
 //     rhs: Term<'a>,
 // }
 
-// TODO -> how does rules lookup happens?
-
 // Each successful rewrite step gets its own temporary bindings (substitution map),
 // produced by matching that step’s redex against that rule’s LHS. Next rewrite step starts fresh
 // and computes a new binding map. That is a key difference from an interpreter environment/hashmap,
